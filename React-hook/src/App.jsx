@@ -1,6 +1,7 @@
 import './App.css'
 import StatusBar from './StatusBar.jsx'
 import SaveButton  from './SaveButton.jsx'
+import UseMemoHookUsage from './UseMemoHookUsage.jsx'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
       <StatusBar />
       <SaveButton />
+      <UseMemoHookUsage />
     </>
   )
 }

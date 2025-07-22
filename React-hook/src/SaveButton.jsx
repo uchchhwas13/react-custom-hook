@@ -2,7 +2,7 @@ import useOnlineStatus from './useOnlineStatus';
 
 export default function SaveButton() {
   const isOnline = useOnlineStatus();
-  
+  console.log("SaveButton updated");
 
   function handleSaveClick() {
     console.log('✅ Progress saved');
