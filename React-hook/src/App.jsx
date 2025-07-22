@@ -1,5 +1,6 @@
 import './App.css'
 import StatusBar from './StatusBar.jsx'
+import SaveButton  from './SaveButton.jsx'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <StatusBar />
+      <SaveButton />
     </>
   )
 }
